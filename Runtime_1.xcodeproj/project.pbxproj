@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A054BE191DDD453800B8EA00 /* NSArray+Crash.m in Sources */ = {isa = PBXBuildFile; fileRef = A054BE181DDD453800B8EA00 /* NSArray+Crash.m */; };
+		A054BE1C1DDD4B2B00B8EA00 /* UIImage+ChangeImage.m in Sources */ = {isa = PBXBuildFile; fileRef = A054BE1B1DDD4B2B00B8EA00 /* UIImage+ChangeImage.m */; };
+		A0555E171DDC437500EF88C7 /* UIViewController+SuiBian.m in Sources */ = {isa = PBXBuildFile; fileRef = A0555E161DDC437500EF88C7 /* UIViewController+SuiBian.m */; };
 		A069A8E41DDBFFDE005FA051 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A069A8E31DDBFFDE005FA051 /* main.m */; };
 		A069A8E71DDBFFDE005FA051 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A069A8E61DDBFFDE005FA051 /* AppDelegate.m */; };
 		A069A8EA1DDBFFDE005FA051 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A069A8E91DDBFFDE005FA051 /* ViewController.m */; };
@@ -14,6 +17,10 @@
 		A069A8EF1DDBFFDE005FA051 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A069A8EE1DDBFFDE005FA051 /* Assets.xcassets */; };
 		A069A8F21DDBFFDE005FA051 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A069A8F01DDBFFDE005FA051 /* LaunchScreen.storyboard */; };
 		A069A8FD1DDBFFDE005FA051 /* Runtime_1UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A069A8FC1DDBFFDE005FA051 /* Runtime_1UITests.m */; };
+		A069A90A1DDC2A90005FA051 /* AViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A069A9081DDC2A90005FA051 /* AViewController.m */; };
+		A069A90B1DDC2A90005FA051 /* AViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A069A9091DDC2A90005FA051 /* AViewController.xib */; };
+		A069A90E1DDC2C4A005FA051 /* Dog.m in Sources */ = {isa = PBXBuildFile; fileRef = A069A90D1DDC2C4A005FA051 /* Dog.m */; };
+		A069A9111DDC32E1005FA051 /* UILabel+SuiBian.m in Sources */ = {isa = PBXBuildFile; fileRef = A069A9101DDC32E1005FA051 /* UILabel+SuiBian.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +34,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A054BE171DDD453800B8EA00 /* NSArray+Crash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Crash.h"; sourceTree = "<group>"; };
+		A054BE181DDD453800B8EA00 /* NSArray+Crash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Crash.m"; sourceTree = "<group>"; };
+		A054BE1A1DDD4B2B00B8EA00 /* UIImage+ChangeImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ChangeImage.h"; sourceTree = "<group>"; };
+		A054BE1B1DDD4B2B00B8EA00 /* UIImage+ChangeImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ChangeImage.m"; sourceTree = "<group>"; };
+		A0555E151DDC437500EF88C7 /* UIViewController+SuiBian.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+SuiBian.h"; sourceTree = "<group>"; };
+		A0555E161DDC437500EF88C7 /* UIViewController+SuiBian.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+SuiBian.m"; sourceTree = "<group>"; };
 		A069A8DF1DDBFFDE005FA051 /* Runtime_1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Runtime_1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A069A8E31DDBFFDE005FA051 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A069A8E51DDBFFDE005FA051 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -40,6 +53,13 @@
 		A069A8F81DDBFFDE005FA051 /* Runtime_1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Runtime_1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A069A8FC1DDBFFDE005FA051 /* Runtime_1UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Runtime_1UITests.m; sourceTree = "<group>"; };
 		A069A8FE1DDBFFDE005FA051 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A069A9071DDC2A90005FA051 /* AViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AViewController.h; sourceTree = "<group>"; };
+		A069A9081DDC2A90005FA051 /* AViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AViewController.m; sourceTree = "<group>"; };
+		A069A9091DDC2A90005FA051 /* AViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AViewController.xib; sourceTree = "<group>"; };
+		A069A90C1DDC2C4A005FA051 /* Dog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dog.h; sourceTree = "<group>"; };
+		A069A90D1DDC2C4A005FA051 /* Dog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dog.m; sourceTree = "<group>"; };
+		A069A90F1DDC32E1005FA051 /* UILabel+SuiBian.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+SuiBian.h"; sourceTree = "<group>"; };
+		A069A9101DDC32E1005FA051 /* UILabel+SuiBian.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+SuiBian.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +105,19 @@
 				A069A8E61DDBFFDE005FA051 /* AppDelegate.m */,
 				A069A8E81DDBFFDE005FA051 /* ViewController.h */,
 				A069A8E91DDBFFDE005FA051 /* ViewController.m */,
+				A0555E151DDC437500EF88C7 /* UIViewController+SuiBian.h */,
+				A0555E161DDC437500EF88C7 /* UIViewController+SuiBian.m */,
+				A069A9071DDC2A90005FA051 /* AViewController.h */,
+				A069A9081DDC2A90005FA051 /* AViewController.m */,
+				A069A9091DDC2A90005FA051 /* AViewController.xib */,
+				A069A90C1DDC2C4A005FA051 /* Dog.h */,
+				A069A90D1DDC2C4A005FA051 /* Dog.m */,
+				A069A90F1DDC32E1005FA051 /* UILabel+SuiBian.h */,
+				A069A9101DDC32E1005FA051 /* UILabel+SuiBian.m */,
+				A054BE171DDD453800B8EA00 /* NSArray+Crash.h */,
+				A054BE181DDD453800B8EA00 /* NSArray+Crash.m */,
+				A054BE1A1DDD4B2B00B8EA00 /* UIImage+ChangeImage.h */,
+				A054BE1B1DDD4B2B00B8EA00 /* UIImage+ChangeImage.m */,
 				A069A8EB1DDBFFDE005FA051 /* Main.storyboard */,
 				A069A8EE1DDBFFDE005FA051 /* Assets.xcassets */,
 				A069A8F01DDBFFDE005FA051 /* LaunchScreen.storyboard */,
@@ -191,6 +224,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A069A90B1DDC2A90005FA051 /* AViewController.xib in Resources */,
 				A069A8F21DDBFFDE005FA051 /* LaunchScreen.storyboard in Resources */,
 				A069A8EF1DDBFFDE005FA051 /* Assets.xcassets in Resources */,
 				A069A8ED1DDBFFDE005FA051 /* Main.storyboard in Resources */,
@@ -211,8 +245,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A069A9111DDC32E1005FA051 /* UILabel+SuiBian.m in Sources */,
+				A069A90A1DDC2A90005FA051 /* AViewController.m in Sources */,
 				A069A8EA1DDBFFDE005FA051 /* ViewController.m in Sources */,
+				A069A90E1DDC2C4A005FA051 /* Dog.m in Sources */,
+				A054BE1C1DDD4B2B00B8EA00 /* UIImage+ChangeImage.m in Sources */,
 				A069A8E71DDBFFDE005FA051 /* AppDelegate.m in Sources */,
+				A0555E171DDC437500EF88C7 /* UIViewController+SuiBian.m in Sources */,
+				A054BE191DDD453800B8EA00 /* NSArray+Crash.m in Sources */,
 				A069A8E41DDBFFDE005FA051 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -402,6 +442,7 @@
 				A069A9031DDBFFDE005FA051 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A069A9041DDBFFDE005FA051 /* Build configuration list for PBXNativeTarget "Runtime_1UITests" */ = {
 			isa = XCConfigurationList;
@@ -410,6 +451,7 @@
 				A069A9061DDBFFDE005FA051 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
